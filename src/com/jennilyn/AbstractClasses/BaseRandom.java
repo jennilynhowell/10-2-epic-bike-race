@@ -11,8 +11,20 @@ public class BaseRandom {
         return min + (random * (max - min));
     }
 
+    private double randomRange(int min, int max) {
+        return randomRange((double) min, (double) max);
+    }
+
     public double getAccelAmount() {
         return randomRange(-1.0, 2.0);
+    }
+
+    public boolean shouldAccel() {
+        return rng.nextBoolean();
+    }
+
+    public double getTopSpeed() {
+        return randomRange(15, 20);
     }
 
 }
