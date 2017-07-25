@@ -58,5 +58,6 @@ public class Bike extends BaseRandom {
     public void report(){
         System.out.println("Location: " + getLocation());
         System.out.println("Speed: " + getSpeed());
+        System.out.println("----------");
     }
 }
