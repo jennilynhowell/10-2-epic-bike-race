@@ -1,0 +1,11 @@
+--Bike--
+Actions
+: move
+: accelerate
+: decelerate
+: report location
+
+Characteristics
+: speed
+: location
+: skill modifier
